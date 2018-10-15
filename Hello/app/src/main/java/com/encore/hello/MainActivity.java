@@ -30,4 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1234-5678"));
         startActivity(myIntent);
     }
+
+    //버튼 클릭시 새로운 액티비티 이동
+    public void moveOtherActivity(View v){
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+        startActivity(intent);
+    }
 }

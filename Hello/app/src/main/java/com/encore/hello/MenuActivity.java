@@ -14,8 +14,8 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     //이벤트 핸들러 추가
-    public void onBackButtonClicked(View v){
-        Toast.makeText(getApplicationContext(),"되돌아가기", Toast.LENGTH_SHORT).show();
-        finish(); //현재 화면 종료
+    public  void onBackButtonClicked(View v){
+        Toast.makeText(getApplicationContext(),"되돌아가기!!", Toast.LENGTH_SHORT).show();
+        finish();
     }
 }
