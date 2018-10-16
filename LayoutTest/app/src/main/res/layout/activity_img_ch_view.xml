@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImgChViewActivity"
+    android:orientation="vertical">
+
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="372dp"
+            android:layout_height="232dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/image01" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:text="위"
+            android:onClick="onButtonClick"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:text="아래"
+            android:onClick="onButtonClick2"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="331dp"
+            android:layout_height="206dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/image02" />
+
+    </TableRow>
+
+
+</TableLayout>
