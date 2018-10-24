@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Server"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_conn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소켓연결" />
+
+    <Button
+        android:id="@+id/bt_led1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1번ON"
+         />
+
+    <Button
+        android:id="@+id/bt_led2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2번ON" />
+
+    <Button
+        android:id="@+id/bt_led3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3번ON"
+        />
+
+    <Button
+        android:id="@+id/bt_led4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4번ON" />
+
+    <Button
+        android:id="@+id/bt_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료" />
+
+</LinearLayout>
